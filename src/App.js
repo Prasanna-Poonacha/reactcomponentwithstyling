@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import * as Button from './components/Button/button.component';
 import logo from './logo.svg';
 import './App.css';
 
@@ -19,6 +20,19 @@ class App extends Component {
           >
             Learn React
           </a>
+          <>
+            <Button.Success
+              text='Submit'
+              type='submit'
+              onClick={() => { }}
+              buttonSize={Button.SIZES.LARGE}
+            />
+            <Button.Warning
+              text='Cancel'
+              onClick={() => { }}
+              buttonSize={Button.SIZES.MEDIUM}
+            />
+          </>
         </header>
       </div>
     );

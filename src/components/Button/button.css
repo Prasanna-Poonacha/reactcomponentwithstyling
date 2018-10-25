@@ -1,0 +1,31 @@
+:local(.button) {
+    border: 1px solid yellow;
+    color: #fff;
+}
+
+:local(.primary) {
+    background-color: blue;
+}
+
+:local(.warning) {
+    background-color: orange;
+}
+
+:local(.success) {
+    background-color: green;
+}
+
+:local(.small) {
+    width: 50px;
+    height: 20px;
+}
+
+:local(.medium) {
+    width: 70px;
+    height: 30px;
+}
+
+:local(.large) {
+    width: 100px;
+    height: 50px;
+}
